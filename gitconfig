@@ -28,6 +28,3 @@
 
 [push]
   default = tracking
-
-[core]
-  editor = /usr/bin/subl
