@@ -18,13 +18,3 @@
   added     = green
   changed   = yellow
   untracked = cyan
-
-[repack]
-  usedeltabaseoffset = true
-
-[alias]
-  st   = status -sb
-  lg   = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --graph --abbrev-commit --date=relative
-
-[push]
-  default = tracking
